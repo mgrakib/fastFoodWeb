@@ -1,0 +1,54 @@
+/* font-family: 'Norican', cursive;
+font-family: 'Norican', cursive;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 0 40px;
+}
+
+#row {
+    display: flex;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.social-link{
+    border-bottom: 1px solid #9080A1;
+}
+.social-link #row{
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    line-height: 35px;
+    color: #808080;
+}
+
+.social-link  a{
+    text-decoration: none;
+    color: #808080;
+    transition: all .3s linear;
+    font-size: 15px;
+}
+
+.social-link  a:hover{
+    color: #FFC222;
+}
+
+.social-link .order-traking a{
+    margin-right: 20px;
+}
+
+.social-link .social-box a {
+    margin-left: 15px;
+}
+
+/* ----------------------- log and search bar ----------------- */
