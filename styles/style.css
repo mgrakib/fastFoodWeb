@@ -1,5 +1,5 @@
 /* font-family: 'Norican', cursive;
-font-family: 'Norican', cursive;
+
 */
 
 *{
@@ -10,10 +10,13 @@ font-family: 'Norican', cursive;
 
 .container{
     padding: 0 40px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
 }
 
 #row {
     display: flex;
+    width: 100%;
 }
 
 body {
@@ -52,3 +55,111 @@ body {
 }
 
 /* ----------------------- log and search bar ----------------- */
+#logo-search-cart #row{
+    line-height: 50px;
+    margin: 30px 0;
+}
+
+#logo-search-cart .logo {
+    flex-basis: 15%;
+    
+}
+
+.logo .image {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo .image img {
+    height: 40px;
+    margin-right: 10px;
+}
+.logo .image p {
+    font-size: 28px;
+    font-family: 'Norican', cursive;
+    font-weight: 800;
+    color: #44AE74;
+    
+}
+
+
+#logo-search-cart .all-catagories {
+    flex: 1;
+    padding: 0 60px;
+}
+
+.all-catagories .input-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 30px;
+    border: 1px solid #FFC222;
+    overflow: hidden;
+    position: relative;
+}
+
+.all-catagories .input-box p {
+    flex-basis: 30%;
+    background-color: #FFC222;
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+}
+
+.input-box input {
+    flex: 1;
+    padding: 15px 48px 15px 10px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+}
+
+.input-box >i {
+    position: absolute;
+    right: 25px;
+}
+
+
+
+#logo-search-cart .cart-account {
+    flex-basis: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart-account .cart {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #808080;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all .3s linear;
+    cursor: pointer;
+    position: relative;
+}
+.cart-account .cart:hover {
+    background-color: #EEAC00;
+}
+
+.cart-account .love::after {
+    content: "5";
+    padding: 2px 6px;
+    background-color: #FFC222;
+    line-height: 10px;
+    font-size: 8px;
+    border-radius: 30px;
+    position: absolute;
+    right: 8px;
+    top: 7px;
+
+
+
+}   
